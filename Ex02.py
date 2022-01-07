@@ -1,4 +1,5 @@
-# Aula 6 Tipos Primitivos e Saída de Dados
+# Aula 06-A 
+# Tipos Primitivos e Saída de Dados
 n1 = int(input('Digite um número:'))
 n2 = int(input('Digite outro número:'))
 s = n1 + n2
