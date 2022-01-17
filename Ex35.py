@@ -1,7 +1,5 @@
 '''Desenvolva um programa que leia o comprimento de três retas e diga ao usuário se elas podem ou não formar um triângulo.'''
-print('='*20)
-print('Analisando Triânulos')
-print('='*20)
+
 r1 = float(input('1° Seguimento: '))
 r2 = float(input('2° Seguimento: '))
 r3 = float(input('3° Seguimento: '))
