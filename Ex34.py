@@ -3,7 +3,7 @@ Para salário superiores a R$1.200,00\nCalcule um aumento de 10%.
 Para os inferiores ou iguais, o aumento é de 15%. '''
 
 salário = float(input('Qual é o salário do funcionário?'))
-if salário <= 1300:
+if salário <= 1200:
     novo = salário + (salário * 15/100)
 else:
     novo = salário + (salário * 10/100)
