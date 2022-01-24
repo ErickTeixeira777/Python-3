@@ -11,5 +11,5 @@ print('O inverso de {} é {} '.format(junto, inverso))
 if inverso == junto:
     print('Temos um palindromo! ')    
 else:
-    print('Não tems um palindromo! ')
+    print('Não é um palindromo! ')
 

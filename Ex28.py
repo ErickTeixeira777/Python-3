@@ -3,12 +3,11 @@ O programa deverá escrever na tela se o usuário venceu ou perdeu.'''
 
 from random import randint
 from time import sleep
-computador = randint(0, 5) #faz o computador "pensar"
+computador = randint(1, 10) #faz o computador "pensar"
 print('🎲' * 20)
-print('Vou pensar em um número entre 0 a 5.\nTente adivinhar...')
+print('Vou pensar em um número entre 1 a 10.\nTente adivinhar...')
 print('🎲' * 20)
 jogador = int(input('Em que número eu pensei? '))
-print()
 print('🎲' * 20)# jogador tenta adivinhar
 if jogador == computador:
     print('🎯 PARABÉNS!🎯 Acertou miseraviii')
