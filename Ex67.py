@@ -3,8 +3,8 @@ de vários números , um de cada vez
 para cada valor digitado pelo usuário
 o programa será interrompido quando o número
 solicitado for negativo'''
-print('{:=^51}'.format('\033[4;36;40mCode-Save\033[m'))
-print('{:=^51}'.format('\033[4;36;40mTabuada 2.0\033[m'))
+print('{:=^51}'.format('Code-Save'))
+print('{:=^51}'.format('Tabuada'))
 while True:
     n = int(input('Digite um número para ver sua tabuada: '))
     if n < 0:
@@ -15,11 +15,6 @@ while True:
     print('='*40)  
 print('Programa Encerrado!') 
 print('='*40)        
-    
-    
-  
-    
-
 '''num = int(input('Digite um número para ver sua tabuada: '))
 for c in range(1, 11):
         print('{} x {} = {}'.format(num, c, num*c))'''
