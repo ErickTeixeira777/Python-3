@@ -1,5 +1,7 @@
 '''Estrutura de repetição!'''
 '''utilizando o while'''
+print('\033[36m{:=^37}\033[m'.format('Code-Save'))
+print('\033[31m{:=^37}\033[m'.format('Estrutura de Repetição'))
 n = 1 
 par = impar = 0
 while n != 0 :

@@ -1,9 +1,10 @@
-n1 = int(input('Um valor:'))
+print('{:=^37}'.format('Code-Save'))
+n1 = int(input('Digite um valor:'))
 n2 = int(input('Outro valor:'))
 s = n1 + n2
 m = n1 * n2
 d = n1 / n2
 di = n1 // n2
 e = n1 ** n2
-print('A soma é {}, \nO produto é {} e a \nDivisão é {:.3f}'.format(s,m,d),end=' ')
-print('Divisão inteira {} e potência {}'.format(di,e))
+print('A soma entre os valores foi {} \nO produto é {} \nA divisão é {:.3f}'.format(s,m,d),end=' ')
+print('Divisão inteira {} \nE potência {}'.format(di,e))
