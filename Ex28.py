@@ -9,6 +9,7 @@ print('Vou pensar em um número entre 1 a 10.\nTente adivinhar...')
 print('🎲' * 20)
 jogador = int(input('Em que número eu pensei? '))
 print('🎲' * 20)# jogador tenta adivinhar
+sleep(5)
 if jogador == computador:
     print('🎯 PARABÉNS!🎯 Acertou miseraviii')
 else:
