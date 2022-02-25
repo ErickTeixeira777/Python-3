@@ -1,5 +1,8 @@
 '''Faça um programa que leia 5 Valores numéricos e guarde-os em uma lista. No final, mostre qual foi o maior e o menor valor digitado e as suas respectivas posições na lista.'''
 
+from email.errors import FirstHeaderLineIsContinuationDefect
+
+
 listanum = []
 mai = 0 
 men = 0
