@@ -1,0 +1,1 @@
+'''Crie um programador que vai ler vários números e colocar uma lista. Depois disso, crie duas listas extras que vão conterapenas os valores pares e os valores inpares digitados, respectivamente. Ao final, mostre o conteúdodas três listas geradas'''
