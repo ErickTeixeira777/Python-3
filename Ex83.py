@@ -11,6 +11,6 @@ for símb in expr:
             pilha.append()
             break
 if len(pilha) == 0:
-    print('Sua expressão está válida! ')
+    print('Sua expressão está válida ! ')
 else:
     print('Sua expressão está errada! ')            
