@@ -9,6 +9,8 @@ for c in range (1, 8):
     else:
         núm[1].append(valor) 
 print('-='*30)
-print(f'Os valores pares foram: {núm[0]} ')
-print(f'Os valores ímpares foram: {núm[1]} ')           
+núm[0].sort()
+núm[1].sort()
+print(f'Os valores pares digitados foram: {núm[0]} ')
+print(f'Os valores ímpares digitados foram: {núm[1]} ')           
   
